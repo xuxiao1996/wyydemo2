@@ -32,6 +32,12 @@ export interface Song {
   dt: number;
 }
 
+// 播放地址
+export interface SongUrl {
+  id: number;
+  url: string;
+}
+
 // 歌单
 export interface SongSheet {
   name: string;
